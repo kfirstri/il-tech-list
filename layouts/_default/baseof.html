@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    {{- partial "head.html" . -}}
+    <body data-uk-filter="target: .js-filter">
+        {{- partial "header.html" . -}}
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
